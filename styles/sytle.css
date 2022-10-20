@@ -1,0 +1,142 @@
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+font-weight: 200;
+
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+a{
+    color:white;
+}
+a:hover{
+    color:rgb(36, 32, 253);
+    transition: 0.3s all;
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+
+}
+
+h2{
+    font-size: 56px;
+    line-height: 35px;
+    font-family: poppinsmedium;
+    max-width: 600;
+    
+
+}
+
+span{
+    color: rgb(36, 32, 253)
+
+}
+
+p{
+    line-height: 25px;
+    max-width: 600px;
+    font-family: poppinslight;
+    margin-right: 15px;
+    font-size: 25px;
+}
+img{
+    width: 650px;
+    margin-top: 50px;
+    
+}
+
+#entrar-btn{
+    border: 2px solid rgb(36, 32, 253);
+    padding: 10px;
+    border-radius: 20px ;
+}
+
+#entrar-btn:hover{
+    background-color: rgb(36, 32, 253);
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%
+
+}
+
+#inscrever{
+    height: 60px;
+    width: 50%;
+    background-color: rgb(36, 32, 253);
+    color: whitesmoke;
+    font-weight: bold;
+    margin-bottom: 50px;
+
+}   
+#inscrever:hover{
+    cursor:pointer;
+}
+
+input{
+margin-top: 20px;
+height: 20px;
+padding: 15px;
+border-radius: 20px;
+border: none;
+font-size: 15px;
+}
+
+
+
+@media screen and (max-width: 760px){
+
+    header{
+        flex-direction: column;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    h2{
+        font-size: 38px;
+    }
+
+    form{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    input{
+        align-self: center;
+    }
+
+    img{
+        display: none;
+    }
+
+    ul{
+        text-align: center;
+    }
+}
